@@ -1,1 +1,20 @@
 <link href="your-stylesheet-link-here.css" rel="stylesheet" type="text/css">
+
+/* media queries */
+@media (min-width: 320px) {
+    #title {
+
+      background-image: url("../images/ac-small.jpg");
+    }
+
+  @media (min-width: 768px) {
+    #title {
+
+      background-image: url("../images/BackgroundDesktop.jpg");
+    }
+
+    @media (min-width: 1200px) {
+      #title {
+
+        background-image: url("../images/mobilebackground.jpg");
+      }
