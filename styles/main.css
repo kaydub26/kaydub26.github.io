@@ -2,19 +2,10 @@
 
 /* media queries */
 @media (min-width: 320px) {
-    #title {
-
-      background-image: url("../images/ac-small.jpg");
-    }
+    #title {}
 
   @media (min-width: 768px) {
-    #title {
-
-      background-image: url("../images/BackgroundDesktop.jpg");
-    }
+    #title {}
 
     @media (min-width: 1200px) {
-      #title {
-
-        background-image: url("../images/mobilebackground.jpg");
-      }
+      #title {}
