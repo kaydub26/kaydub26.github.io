@@ -1,11 +1,35 @@
-<link href="your-stylesheet-link-here.css" rel="stylesheet" type="text/css">
 
-/* media queries */
-@media (min-width: 320px) {
-    #title {}
+h1
+{
+  font-size: 100px;
+}
 
-  @media (min-width: 768px) {
-    #title {}
+#mainTitle
+{
+  color: red;
+}
 
-    @media (min-width: 1200px) {
-      #title {}
+  @media (max-width: 320px) {
+    h1
+{
+  font-size: 30px;
+  color: orange
+} 
+  }
+  
+  @media (max-width: 768px) {
+    h1
+    {
+      font-size: 60px;
+      color: yellow
+    } 
+  }
+
+  
+  @media (min-width: 1200px) {
+    h1
+    {
+      font-size: 200px;
+      color: purple
+    } 
+  }

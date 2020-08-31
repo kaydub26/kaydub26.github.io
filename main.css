@@ -1,0 +1,32 @@
+
+h1
+{
+  font-size: 100;
+}
+
+#mainTitle
+{
+  color: red;
+}
+
+  @media (max-width: 320px) {
+    
+  }
+  
+  @media (max-width: 768px) {
+    
+  }
+
+  
+  @media (min-width: 1200px) {
+    /* .banner {
+      padding: 300px 10%;
+    }
+    .banner h2 {
+      font-size: 2.5em;
+      margin-top: -35px;
+    }
+    .navbar-brand {
+      font-size: 2em;
+    } */
+  }
